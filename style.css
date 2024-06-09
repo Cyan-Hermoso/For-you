@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%
+}
+body {
+  background-image: url(pretty.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  font-size: 4.2rem;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  margin-top: 5.5rem;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  margin: 33rem 0 0 0;
+  gap: 3rem;
+}
+
+.link a{
+  padding: 1.4rem 2.3rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #222DA7;
+  background: #CAE2D1;
+  border-radius: 1rem;
+}
