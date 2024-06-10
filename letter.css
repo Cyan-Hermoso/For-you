@@ -7,10 +7,11 @@
 
 h1,
 p {
-	font-family: ', ;
+	font-family: Arial, sans-serif;
+	font-size: 2.5rem;
 }
 
-p{
+p {
 	text-indent: 50px;
 }
 
@@ -26,7 +27,7 @@ body {
 .container {
 	position: relative;
 	width: 100%;
-	height: 120vh;
+	height: 100vh;
 	overflow: shown;
 }
 
@@ -36,12 +37,12 @@ body {
 	top: 50%;
 	text-align: center;
 	transform: translate(-50%, -50%);
-	transiton: transform 2s;
+	transition: transform 2s;
 	z-index: 1;
 }
 
 .heart > img {
-	width: 50px;
+	width: 100px;
 	height: auto;
 }
 
